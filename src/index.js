@@ -62,6 +62,7 @@ class StimulusDataTables extends Controller {
   }
 
   connect() {
+    console.log('stimuls-datatables connected.');
     if (!this.isBooting()) return false
 
     // Register the teardown listener and start up DataTable.
